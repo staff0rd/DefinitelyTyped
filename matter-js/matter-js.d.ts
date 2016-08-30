@@ -705,6 +705,8 @@ declare namespace Matter {
          */
         static update(body: Body, deltaTime: number, timeScale: number, correction: number): void;
 
+        sprite: PIXI.Sprite;
+
         /**
          * A `Number` specifying the angle of the body, in radians.
          *
